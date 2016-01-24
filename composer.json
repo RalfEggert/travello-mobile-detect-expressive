@@ -1,0 +1,28 @@
+{
+    "name": "ralfeggert/travello-mobile-detect-mvc",
+    "description": "Zend Framework Expressive module to provide view helper for mobile detect lib",
+    "license": "The MIT License (MIT)",
+    "authors": [
+        {
+            "name": "Ralf Eggert",
+            "email": "ralf@travello.de",
+            "homepage": "http://www.travello.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "zendframework/zend-config": "^2.5",
+        "zendframework/zend-servicemanager": "^2.5",
+        "zendframework/zend-view": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "TravelloMobileDetect\\": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
