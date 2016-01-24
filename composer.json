@@ -20,9 +20,6 @@
     "autoload": {
         "psr-4": {
             "TravelloMobileDetect\\": "src/"
-        },
-        "classmap": [
-            "./Module.php"
-        ]
+        }
     }
 }
