@@ -1,7 +1,7 @@
 {
     "name": "ralfeggert/travello-mobile-detect-expressive",
     "description": "Zend Framework Expressive module to provide view helper for mobile detect lib",
-    "license": "The MIT License (MIT)",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ralf Eggert",
